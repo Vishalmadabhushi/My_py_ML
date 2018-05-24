@@ -2,13 +2,13 @@ import random
 
 print("\t\t   DUELLING\n")
 print("\t LET'S START THE GAME\n")
-print("  HARRY POTTER vs SEVERUS SNAPE\n")
-print("Select your character\nType 1 for HARRY POTTER, 2 for SEVERUS SNAPE\n")
+print("  HARRY POTTER vs DRACO MALFOY\n")
+print("Select your character\nType 1 for HARRY POTTER, 2 for DRACO MALFOY\n")
 ip_char = int(input())
 if(ip_char==1):
     print("You are now HARRY POTTER\n")
 elif(ip_char==2):
-    print("You are now SEVERUS SNAPE\n")
+    print("You are now DRACO MALFOY\n")
 else:print("Select Again")
 user_power = 100
 my_power = 100
