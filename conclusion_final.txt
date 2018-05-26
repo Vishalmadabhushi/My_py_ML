@@ -1,0 +1,12 @@
+In case of 2 classes: 5 samples are falling under cluster_0 and 13 samples are falling under cluster_1
+
+
+In case of 3 classes: 5 samples are falling under cluster_0 , 7 samples are falling under cluster_1 and 6 samples are falling under cluster_2
+
+
+In case of 4 classes: 2 samples are falling under cluster_0 , 6 samples are falling under cluster_1 , 3 samples are falling under cluster_2 and 7 samples are falling under cluster_3
+
+
+Observation:
+The initialization of number of clusters to 3 helped us to reach the ground truth as it showed the better clustering values initialization than that of initializing the number of clusters to 2 and 4.
+There was an inefficient clustering in attempting the initialization variation to 2 and 4.
